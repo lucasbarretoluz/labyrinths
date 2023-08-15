@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Labyrinths",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Labyrinths",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "lldb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for lldb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "text": "settings set target.source-map",
+                    "description": "Map source paths",
+                    "ignoreFailures": true
+                },
+                {
+                    "text": "settings set target.source-map ${workspaceFolder} /caminho/para/sua/lib",
+                    "description": "Map source paths for your lib",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

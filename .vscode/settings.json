@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "raylib.h": "c",
+        "stdio.h": "c",
+        "make_map.h": "c",
+        "global.h": "c",
+        "globals.h": "c",
+        "cstring": "c",
+        "locale": "c",
+        "*.m": "c",
+        "player_and_teacher.h": "c",
+        "game.h": "c",
+        "the_map.h": "c",
+        "stdlib.h": "c",
+        "defines.h": "c"
+    }
+}
