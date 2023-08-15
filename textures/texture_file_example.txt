@@ -1,0 +1,7 @@
+CaminhoParaTextura1
+CaminhoParaTextura2
+CaminhoParaTextura3
+...
+CaminhoParaTexturaN
+
+Ao definir uma textura, usar o número da linha
